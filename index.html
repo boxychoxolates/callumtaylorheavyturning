@@ -8,7 +8,8 @@
 			$('.hero').slick({
 				dots:false,
 				arrows:false,
-				fade: true
+				fade: true,
+				autoplay: true
 			});			
 		});
 
@@ -19,16 +20,26 @@
 			margin: 0;
 		}
 		h1{			   
-			font-size: 48px;
-			text-align: center;
+			font-size: 100px;
+
+
+			color: #f6e953;
+			
+		}
+		.wrapper{
+			z-index: 1;
 			position: absolute;;
 			top: 40%;
 			transform: translateY(-40%);
 			left: 0;
 			right: 0;
 			margin: 0 auto;
-			color: #f6e953;
-			z-index: 1;
+						text-align: center;
+		}
+		.intro{
+			text-align: center;
+			font-size: 46px;
+						color: #f6e953;
 		}
 		.hero div img{
 			height: 100%; width: 100%; background-size: cover !important;
@@ -156,7 +167,21 @@
 	</style>
 </head>
 <body>
-	<h1>Callum Taylor Heavy Turning</h1>
+	<div class="wrapper">
+
+		<h1>Callum Taylor<br />Heavy Turning</h1>
+		<span class="intro">
+			Capacity DSG: 30x360<br />
+			762mm x 9144mm<br />
+			584 over BOTH saddles<br />
+			Over 20 years experience<br />
+			07757 6652921<br />
+			Crane Works,
+			Little Queen St,
+			Colne, Lancashire, BB8 8EE
+		</span> 
+
+	</div>
 	<div class="hero">		
 		<div class="">
 			<img src="./lathe1.JPG" />
