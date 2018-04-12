@@ -12,20 +12,15 @@
 	
 	<meta charset="UTF-8" />
     <title>Callum Taylor Heavy Turning</title>
-	<meta name="description" content="Callum Taylor Heavy Turning. Call 07757 6652921 for a quote." />    
-	<meta name="keywords" content="Callum Taylor Heavy Turning, Lathe 30 x 360 Capacity, Lathe 762mm x 9144mm Length" /> 
+	<meta name="description" content="Callum Taylor Heavy Turning. Call 07757 652921 for a quote." />    
+	<meta name="keywords" content="Callum Taylor Heavy Turning, Heavy Turning North West, Lathe North West, Heavy Turning Lathe, Heavy Turning Quote" /> 
 	<meta name="google-site-verification" content="z_2lOO19EBodiTcSKoau1Dfz8JXxa1NdgRI58qNl5zE" />
 	<script type="text/javascript" src="./jquery-3.3.1.min.js"></script>
-	<script type="text/javascript" src="./slick.js"></script>
+	
 	<script type="text/javascript">
 		$(document).ready(function(){
 
-			$('.hero').slick({
-				dots:false,
-				arrows:false,
-				fade: true,
-				autoplay: true
-			});			
+					
 		});
 
 	</script>
@@ -33,186 +28,100 @@
 		*{
 			padding: 0;
 			margin: 0;
+			font-family: Bookman, Garamond, Helvetica, Arial;
 		}
-		h1{			   
-			font-size: 100px;
 
-
-			color: #f6e953;
-			
+		body{
+			background: url('./lathe5.JPG') no-repeat ;
+			background-size: cover;
+			font-size: 16px;
 		}
+
+		a{
+			color: #5f945f;
+			text-decoration: none;			
+		}
+
+		h1, h2{			   
+			font-size: 60px;
+			color: #5f945f;
+			padding: 20px;
+		}
+
+		h2{
+			background: #5f945f;
+			color: white;
+			font-size: 40px;
+		}
+
 		.wrapper{
-			z-index: 1;
-			position: absolute;;
-			top: 40%;
-			transform: translateY(-40%);
+			margin: 0 auto;
+			text-align: center;
+		}
+
+		header{
+			position: fixed;
+			top: 0;
 			left: 0;
 			right: 0;
-			margin: 0 auto;
-						text-align: center;
+			z-index: 1;
+			background: white;
 		}
-		.intro{
+
+		main{
+			z-index: 1;
+			position: absolute;;
+			bottom: 10%;			
+			left: 10%;	
+			right: 10%;					
 			text-align: center;
 			font-size: 46px;
-						color: #f6e953;
+			color: white;
+			background: #5f945f;			
+			padding: 20px;
+			opacity: 0.8;
 		}
-		.hero div img{
-			height: 100%; width: 100%; background-size: cover !important;
+
+		footer{
+			position: fixed;
+			bottom: 0;
+			left: 0;
+			right: 0;			
+			z-index: 1;
+			font-size: 46px;
+			color: #5f945f;
+			background: white;
+			padding: 20px;			
 		}
-/* Slider */
-.slick-slider
-{
-    position: relative;
 
-    display: block;
-    box-sizing: border-box;
-
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
-
-    -webkit-touch-callout: none;
-    -khtml-user-select: none;
-    -ms-touch-action: pan-y;
-        touch-action: pan-y;
-    -webkit-tap-highlight-color: transparent;
-}
-
-.slick-list
-{
-    position: relative;
-
-    display: block;
-    overflow: hidden;
-
-    margin: 0;
-    padding: 0;
-}
-.slick-list:focus
-{
-    outline: none;
-}
-.slick-list.dragging
-{
-    cursor: pointer;
-    cursor: hand;
-}
-
-.slick-slider .slick-track,
-.slick-slider .slick-list
-{
-    -webkit-transform: translate3d(0, 0, 0);
-       -moz-transform: translate3d(0, 0, 0);
-        -ms-transform: translate3d(0, 0, 0);
-         -o-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
-}
-
-.slick-track
-{
-    position: relative;
-    top: 0;
-    left: 0;
-
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.slick-track:before,
-.slick-track:after
-{
-    display: table;
-
-    content: '';
-}
-.slick-track:after
-{
-    clear: both;
-}
-.slick-loading .slick-track
-{
-    visibility: hidden;
-}
-
-.slick-slide
-{
-    display: none;
-    float: left;
-
-    height: 100%;
-    min-height: 1px;
-}
-[dir='rtl'] .slick-slide
-{
-    float: right;
-}
-.slick-slide img
-{
-    display: block;
-}
-.slick-slide.slick-loading img
-{
-    display: none;
-}
-.slick-slide.dragging img
-{
-    pointer-events: none;
-}
-.slick-initialized .slick-slide
-{
-    display: block;
-}
-.slick-loading .slick-slide
-{
-    visibility: hidden;
-}
-.slick-vertical .slick-slide
-{
-    display: block;
-
-    height: auto;
-
-    border: 1px solid transparent;
-}
-.slick-arrow.slick-hidden {
-    display: none;
-}
-
+		@media only screen and (min-width : 1025px) {
+		   main{
+		        font-size: 20px;
+		        left: 10px;
+		        right: auto;
+		        bottom: 103px;
+		        width: 300px;
+		    }
+		}		
 	</style>
 </head>
 <body>
 	<div class="wrapper">
-
-		<h1>Callum Taylor<br />Heavy Turning</h1>
-		<span class="intro">
+		<header>
+			<h1>Callum Taylor<br />Heavy Turning</h1>
+			<h2>Serving the North West and Nationwide</h2>
+		</header>
+		<main>			
 			Capacity DSG: 30x360<br />
 			762mm x 9144mm<br />
 			584 over BOTH saddles<br />
-			Over 20 years experience<br />
-			07757 6652921<br />
+			Over 20 years experience<br />			
 			Crane Works,
 			Little Queen St,
-			Colne, Lancashire, BB8 8EE
-		</span> 
+			Colne, Lancashire, BB8 8EE					
+		</main>
+		<footer>Call <a href="tel:07757 652921" title="Call 07757 652921 for a quote"><strong>07757 652921</strong></a> for a quote</footer>
 
-	</div>
-	<div class="hero">		
-		<div class="">
-			<img src="./lathe1.JPG" />
-		</div>
-		<div class="">
-			<img src="./lathe2.JPG" />
-		</div>
-		<div class="">
-			<img src="./lathe3.JPG" />
-		</div>
-		<div class="">
-			<img src="./lathe4.JPG" />
-		</div>
-		<div class="">
-			<img src="./lathe5.JPG" />
-		</div>
-	</div>
+	</div>	
 </body>
 </html>
