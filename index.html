@@ -96,7 +96,11 @@
 				
 		}
 
-		@media only screen and (max-height : 320px) {
+		@media only screen 
+			and (min-device-width : 320px)
+			and (max-device-width : 568px) 
+			and (orientation : landscape) {
+
 			main{
 				position: relative;
 			}
